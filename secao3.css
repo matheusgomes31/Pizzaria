@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+
+.row-secao3{
+    background-image:url(fundo_secao3_parte1.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    color:#f1f1f1;
+    height:800px;
+  
+  
+   
+}
+.secao3{
+    width: 100%;
+    width: 100%;
+    margin: 0px;
+  
+    height: auto;
+    background-color: #242424;
+}
+.secao3 h1,h2{
+    /*espacamento entre section*/
+    margin: 0;
+}
+.secao3 .grid-cards-price{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-end;
+    margin-top: 100px;
+    margin-right: 30px;
+}
+
+.secao3 .titulo{
+   
+    width: auto;
+    text-align:right;
+    padding-top: 30px;
+    padding-right: 30px;
+
+    
+}
+.grid-cards-price .card-grande{
+    background-color: #ffba00;
+    padding:30px 70px;
+    
+}
+.secao3 h1{
+    text-transform: uppercase;
+    color: #f1f1f1;
+}
+.grid-cards-price .card-pequeno{
+    margin-top:50px;
+    background-color: #ffba00;
+    padding-right: 200px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left:20px;
+}
+.card-grande .subcard{
+   display: inline-block;
+   text-align: center;
+   float: right;
+   font-family: 'Lato';
+   font-weight: 100;
+  
+}
+.subcard .price_value{
+    font-size:1.7em;
+}
+.card-grande h5{
+    font-size:25px;
+}
+.grid-gallery{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+   
+}
+
+.grid-gallery img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.gallery{
+    padding: 50px;
+    
+}
+/*media queries*/
+@media(min-width:768px){
+    .grid-gallery{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        
+    }
+    .grid-gallery img{
+        height: 475px;
+    }
+    .grid-item-gal-1 img{
+        width:59.99999%;
+    }
+    .grid-item-gal-2 img{
+        width:20.9%;
+    }
+    .grid-item-gal-3 img{
+        width:20%;
+    }
+}
+
+

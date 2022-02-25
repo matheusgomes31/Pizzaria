@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+.secao2 {
+    width: 100%;
+    background-color: #242424;
+    padding-bottom: 40px;
+    color: #f1f1f1;
+    font-family: 'Montserrat';
+    margin: 0px;
+  
+}
+.secao2 .part1{
+    background-image: url(fundo_secao2_parte1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+     
+}
+.secao2 .logo{
+   padding-left: 100px;
+    font-weight: 900;
+    padding-top: 40px;
+}
+.secao2 h1{
+    text-align: center;
+    color: #ffba00;
+}
+.secao2 .titulo{
+
+    text-transform: uppercase;
+    font-weight:300;
+    border: 2.2px solid #f2f2f2;
+    padding-left: 50px;
+    margin-left: 80px;
+    margin-right:1px;
+    padding-bottom: 20px;
+    padding-top:10px;
+}
+.secao2 .menu{
+    border-collapse: collapse;
+   margin-left: 100px;
+  
+    
+    font-family: 'Noto Sans';
+   
+}
+.secao2 .menu .col-price {
+    width: 100%;
+    
+    text-align: center;
+}
+.secao2 .menu p,h2{
+    line-height:15%;
+padding-left: 50px;
+}
+.menu h2{
+    text-transform:uppercase; 
+    font-weight:300;
+    
+}
+.menu .linha{
+    background-color: #ffba00;
+    
+    
+}
+.menu td{
+    padding-top:30px;
+}
+.submenu{
+    margin-top:10px;
+    padding:10px;
+    margin-left: 80px;
+    margin-right:40px;
+    border:1px solid #f1f1f1;
+}
+.submenu div{
+    
+    padding-left: 60px;
+    line-height: 130%;
+}
+.secao2 .subtitulo{
+    font-family: 'Noto sans';
+}
+.secao2 .subtitulo h1{
+    font-weight:300 ;
+    text-transform: uppercase;
+}
+.secao2 .subtitulo strong{
+    font-weight:700 ;
+}
+.secao2 .subtitulo p{
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight:100;
+}
+.secao2 .grid-subtitulo{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Raleway';
+    
+
+  
+}
+.secao2 .grid-item-subtitulo{
+    padding:10px;
+}
